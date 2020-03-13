@@ -1,0 +1,51 @@
+body
+{
+	font-family: 'Montserrat', sans-serif;
+}
+footer{
+	background-color: #e2e2e2
+}
+.container {
+	width:1000px;
+	margin: auto; /* Margin:auto permet de centrer un bloc dans la page */
+	padding-top: 20px;
+	padding-bottom: 20px;
+    text-align: center;
+}
+.footer {
+	background-color:black;
+	width:100%;
+}
+
+.footer p {
+	text-align:center;
+	color:white;
+	font-size:12px;
+	font-weight:10px;
+	padding:20px; 
+    margin-bottom: 2px;
+    margin-top: 2px
+    letter-spacing: 1px;
+}
+.input-grey .input-group-lg>.input-group-prepend>.input-group-text {
+        border-radius: .125rem;
+      }
+      .input-grey .form-control {
+        border-radius: .125rem;
+      }
+      .input-grey .form-control.form-control-lg {
+        font-size: 1rem;
+      }
+      .form-control:focus {
+        background-color: rgba(255,255,255,.3);
+      }
+      .input-grey input::placeholder {
+        color: #fff;
+      }
+      .input-grey .input-group-lg>.form-control:not(textarea) {
+        height: calc(1.5em + 1rem + 6px);
+      }
+      .social .fab {
+        width: 30px;
+        height: 30px;
+      }
